@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "build:prod": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
