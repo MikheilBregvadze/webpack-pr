@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./AARDVRKB.eot');
+    src: url('./AARDVRKB.eot?#iefix') format('embedded-opentype'),
+    url('./AARDVRKB.woff2') format('woff2'),
+    url('./AARDVRKB.woff') format('woff'),
+    url('./AARDVRKB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hello {
+    color: red;
+    font-family: 'MyFont';
+    background: url('./icon.png');
+}
